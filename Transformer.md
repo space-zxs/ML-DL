@@ -42,4 +42,8 @@ rnn的对比和缺点，不能并行容易梯度消失，忘记开始学的信�
   muti-head
   
   先把qkv 投影到低维 在做注意力，在投影回来，
-     
+  ##### position edcoding 
+    sin 和 cos 加入时间信息，改变qkv的顺序不影响最终输出
+    
+    
+  #### why self-attention 
