@@ -47,3 +47,8 @@ rnn的对比和缺点，不能并行容易梯度消失，忘记开始学的信�
     
     
   #### why self-attention 
+
+
+### Transformer 面试问题汇总
+
+1. 
