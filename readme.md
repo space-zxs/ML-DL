@@ -1,5 +1,5 @@
 ### 主要的方向
-- leetccode
+- leetcode
 - 机器学习
 - NLP
 - AIGC
