@@ -23,4 +23,40 @@
 
 _**GANs的值函数**_
 
+倘若固定D而将G优化到底，那么解GD*和此时的值函数又揭示出什么呢？
+
+最终还是个二分类问题，所以损失式二元交叉熵
+
+![image](https://github.com/space-zxs/ML-DL/assets/77714764/28e68ef2-c605-44e0-abf3-3ee48bbd24ad)
+
+进一步可以写成
+
+![image](https://github.com/space-zxs/ML-DL/assets/77714764/5beeb1ba-1c3a-47fd-a84d-850cddf48621)
+
+
+![image](https://github.com/space-zxs/ML-DL/assets/77714764/14e014d1-7bbf-4972-93a2-ab021e1ddea2)
+
+_**GANs如何避开大量概率推断计算？**_
+
+
+![image](https://github.com/space-zxs/ML-DL/assets/77714764/a4b9d7ba-977a-430e-8291-0665bd52e4ab)
+
+
+_**GANs在实际训练中会遇到什么问题？**_
+
+
+在实际训练中，早期阶段生成器G很差，生成的模拟样本很容易被判别器D识别，使得D回传给G的梯度极其小，达不到训练目的，这个现象称为优化饱和[33]。
+
+故G获得的梯度基本为零，这说明D强大后对G的帮助反而微乎其微。
+
+
+![image](https://github.com/space-zxs/ML-DL/assets/77714764/91aadb14-1817-4562-82b0-6529e3afbeb8)
+
+
+---
+
+### stylegan
+
+
+
 
