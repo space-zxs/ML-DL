@@ -17,7 +17,7 @@ _**sd主要功能**_
 
 _Stable Diffusion 是由多个组件和模型组成的一个系统。并非单一的模型_
 
-SD 构成： 文本编码器、VAE、图像生成器
+SD 构成： 文本编码器、VAE、图像生成器    unet 开始和结束前都要用到VAE
 
 ![image](https://github.com/space-zxs/ML-DL/assets/77714764/71e3d648-8f51-4d15-87c6-6ffa451b3bf4)
 
@@ -50,11 +50,20 @@ _扩散的过程发生在下图中粉红色的图像信息创建器组件中。�
 
 ![image](https://github.com/space-zxs/ML-DL/assets/77714764/3525b148-7d94-430c-ae7e-745f1628fe44)
 
-这个过程以 **step-by-step **的方式运作，每一步都会添加更多相关信息。
+这个过程以 **step-by-step **的方式运作，每一步都会添加更多相关信息。 
 
 整个扩散过程包含多个 steps，每个 step 都对输入的 Latent 矩阵进行操作，并生成另一个更接近输入文本的 Latent 矩阵，同时从选择模型的图像库中获取视觉信息。
 
 ![image](https://github.com/space-zxs/ML-DL/assets/77714764/fa1bba07-0d9d-4f2b-867c-b2854b3be740)
+
+_**扩散的工作原理**_
+
+受热力学的扩散影响，一种马尔可夫链形式的扩散过程
+
+_前向扩散_
+
+为一张图像生成噪音，加到图像中视为一次训练过程
+
 
 
 
