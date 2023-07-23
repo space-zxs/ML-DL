@@ -260,4 +260,6 @@ rnn的对比和缺点，不能并行容易梯度消失，忘记开始学的信�
 
 综上，除以维度的算术平方根会使得分布重新归一化到数据原分布，防止出现梯度消失。
 
+[transformer面试问题](https://mp.weixin.qq.com/s/wjhtrMuonlQjiWEUt_Gwcg)
+
 
