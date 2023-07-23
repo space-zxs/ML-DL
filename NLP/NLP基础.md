@@ -262,4 +262,8 @@ rnn的对比和缺点，不能并行容易梯度消失，忘记开始学的信�
 
 [transformer面试问题](https://mp.weixin.qq.com/s/wjhtrMuonlQjiWEUt_Gwcg)
 
+### bert 
+
+[bert讲解](https://mp.weixin.qq.com/s/HRXoZBtupj74cyRnsfFc-Q)
+
 
