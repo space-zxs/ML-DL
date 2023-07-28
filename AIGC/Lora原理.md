@@ -5,3 +5,5 @@
 模型合并:
 
 [模型合并](https://www.acceleratori.com/d/11152)
+
+[模型合并的工具](https://civitai.com/articles/456)
