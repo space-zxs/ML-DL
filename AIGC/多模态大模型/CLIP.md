@@ -16,3 +16,5 @@
 [https://www.jianshu.com/p/23623fe17f64] 交叉熵损失函数， 预测正确的时候损失很小，预测错误损失很大
 
 [pytorch交叉熵函数的实现](https://blog.csdn.net/weixin_44211968/article/details/123906631)
+
+文本编码器是一个 transormer的 encoder
