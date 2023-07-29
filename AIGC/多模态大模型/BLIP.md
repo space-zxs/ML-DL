@@ -21,3 +21,12 @@ BLIP的MED的预训练微调被分成两个部分，Captioner 和 Filter， 对�
 
 
 ![image](https://github.com/space-zxs/ML-DL/assets/77714764/0d211648-0e4c-47b1-a48d-0998087f6c40)
+
+
+## BLIP2
+
+[论文](https://arxiv.org/abs/2301.12597)
+
+[知乎的解释](https://zhuanlan.zhihu.com/p/606364639)
+
+[其他解释](https://www.xjx100.cn/news/759970.html?action=onClick)
