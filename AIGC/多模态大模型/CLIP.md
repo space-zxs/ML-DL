@@ -1,5 +1,7 @@
 ## CLIP
 
+[github链接](https://github.com/openai/CLIP)
+
 通过一个自然语言的监督，可以训练一个迁移效果很好的视觉模型。
 
 是一个牵扯文字图片的多模态工作。
