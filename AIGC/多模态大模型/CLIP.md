@@ -12,3 +12,5 @@
 ![image](https://github.com/space-zxs/ML-DL/assets/77714764/1c661069-f316-4cb4-9709-2567ebc61f8a)
 
 [https://www.jianshu.com/p/23623fe17f64] 交叉熵损失函数， 预测正确的时候损失很小，预测错误损失很大
+
+[pytorch交叉熵函数的实现](https://blog.csdn.net/weixin_44211968/article/details/123906631)
