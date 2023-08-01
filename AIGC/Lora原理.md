@@ -1,5 +1,7 @@
 ## Lora 原理及其家族
 
+[lora论文](https://arxiv.org/abs/2106.09685)
+
 [Lora分层权重控制](https://github.com/hako-mikan/sd-webui-lora-block-weight#weights-setting)
 
 模型合并:
