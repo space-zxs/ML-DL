@@ -11,3 +11,6 @@ decoder阶段是一个扩散模型，prior阶段试了自回归和扩散模型
 
 
 文本特征->clip->文本rembedding -> prior -> 图像embedding -> decoder
+
+
+训练的时候使用cLIP的图像特征,当作ground——truth
