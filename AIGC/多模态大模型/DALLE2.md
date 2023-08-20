@@ -25,3 +25,11 @@ VAE和Diffusion的区别：
     对于扩散模型来说，每一层的维度更刚开始的输入都是同样大小，但是对于VAE一般中间的维度会比较小
 
     对于扩散模型来说有一个time embedding 的概念
+
+classifier guidance 和 classfier free guidance 、
+
+    在扩散模型出来之后生成图像的质量还算不错，但是在inception score 和 fid 等分数指标上比不过gan
+
+    那么这个分类器怎么加的呢
+
+    在扩散模型的反向阶段，加了一个分类器，这个分类器大多都是在imagenet上训练的，只不过把数据集里面加了很多噪声
