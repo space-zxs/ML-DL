@@ -5,6 +5,7 @@
 
 [diffusion 公式推导](https://wrong.wang/blog/20220605-什么是diffusion模型/)
 
+[扩散模型详解 ](https://blog.csdn.net/xd_wjc/article/details/134441396)
 
 ## sd 原理  
 
